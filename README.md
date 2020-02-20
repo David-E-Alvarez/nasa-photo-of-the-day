@@ -63,7 +63,7 @@ Follow these steps for completing your project.
 
 - [x] In `App.js` (or where ever you wanted to fetch the data) add state for the data you'll be getting from NASA.
 - [x] Add an effect hook to handle the API call side effect.
-- [ ] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and read through the docs to see how to make the API call.
+- [x] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and read through the docs to see how to make the API call.
 - API key: Cl7sU7MLplixR4dq9wh8pF2STS13efeewiSA7V7m
   * ex. usage: https://api.nasa.gov/planetary/apod?api_key=Cl7sU7MLplixR4dq9wh8pF2STS13efeewiSA7V7m
 - [x] You don't _need_ an API key. However you may need one if you exceed the API request limits.
@@ -81,15 +81,15 @@ _Note: if the photo url is NOT a photo, you will need to learn how to display a 
 
 **Step 4 - Adding the Data to State**
 
-- [ ] Once you have made the call correctly, and logged the data, add the data to the state property you built.
+- [x] Once you have made the call correctly, and logged the data, add the data to the state property you built.
 
 **Step 5 - Display the Data**
 Now is the time to build out your other components. Compose your UI, and then pass the data to your children components via props so you can render it on the DOM.
 
 ## _MVP Requirements:_
 
-- [ ] Use the effect hook to fetch the APOD data when the component mounts.
-- [ ] Display the APOD data in different components that are composed together to build your UI.
+- [x] Use the effect hook to fetch the APOD data when the component mounts.
+- [x] Display the APOD data in different components that are composed together to build your UI.
 
 ## Pro Tips:
 
