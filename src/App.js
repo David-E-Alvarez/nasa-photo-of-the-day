@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import Title from "./components/Title";
+import Image from "./components/Image";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <Title title={nasaData.title}/>
+      <Image url={nasaData.hdurl}/>
     </div>
   );
 }
