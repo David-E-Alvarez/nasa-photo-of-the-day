@@ -1,8 +1,12 @@
 import React from "react";
 
 const Image = props => {
-    console.log("props in Image.js: ", props);
-    return <img src={props} alt="NASA pic of day"/>
+    //if(!props.hdurl) return <h3>Loading...</h3>
+    return <img alt="NASA Rocks!" src={props} />
+    
+
+   
+  
 }
 
 export default Image;
