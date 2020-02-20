@@ -3,6 +3,7 @@ import axios from "axios";
 import Title from "./components/Title";
 import Image from "./components/Image";
 import Explanation from "./components/Explanation";
+import {Jumbotron, Button} from 'reactstrap';
 import "./App.css";
 
 
@@ -23,9 +24,12 @@ function App() {
   },[])
   return (
     <div className="App">
-      <Title title={nasaData.title}/>
-      <Image key={nasaData.id} url={nasaData.url}/>
-      <Explanation explanation={nasaData.explanation}/>
+      <Jumbotron>
+        <Title title={nasaData.title}/>
+        <Explanation explanation={nasaData.explanation}/>
+        <Button color="primary" href="https://en.wikipedia.org/wiki/NASA" target="_blank">Learn More</Button>
+      </Jumbotron>
+      <Image key={nasaData.id} url={nasaData.url}/>      
     </div>
   );
 }
